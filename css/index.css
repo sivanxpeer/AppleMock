@@ -219,42 +219,53 @@
     background-color: white;
     height: 100vh;
     /* border: yellow 3px solid; */
-    display: grid;
+    display: flex;
+    justify-content: center;
   }
   
   .iphone-13-image-container {
       height: 100vh;
       width: 100%;
-      display: flex;
+      /* display: flex; */
+      margin: auto;
+      /* flex-direction: column-reverse; */
       /* align-content: center; */
-      justify-content: center;
+      /* justify-content: center; */
+      /* align-self: center; */
+      /* margin-left: 20rem; */
   }
   
   .page-2-heading {
-      border: 2px solid blue;
-    /* height: 40vh; */
-    /* border: red 2px solid; */
+      align-self: start;
+      height: 30vh;
+      width: 100%;
+      border: 2px solid rgb(137, 137, 141);
+    position: absolute;
+    top:125vh;
+    z-index: 2;
     display: flex;
     flex-direction: column;
-    /* box-sizing: border-box; */
     justify-content: center;
     align-items: center;
+    align-self: flex-start;
     /* border: red 1px solid; */
   
   }
   .heading{
       font-size: 3rem;
-      margin-top: 4rem;
+      /* margin-top: 4rem; */
       display: flex;
-  }
-  
-  .subhead{
-      font-size: 1.8rem;
-      border: red 1px solid;
-      font-weight: 200;
-  }
-  
-  .links{
+      /* margin: auto; */
+      justify-content: center;
+    }
+    
+    .subhead{
+        font-size: 1.8rem;
+        border: red 1px solid;
+        font-weight: 200;
+    }
+    
+    .links{
       /* display: flex; */
       justify-content: space-between;
       border: 1px solid red;
@@ -262,12 +273,14 @@
   
   
   .page-2-iphone-13-image {
+      /* align-self: center; */
+    /* background-size: 1068px 617px; */
       /* border: black 2px solid; */
     background: url("https://www.apple.com/v/home/ah/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_large_2x.jpg")
       no-repeat center center/cover;
     width: 100%;
     height: 100%;
-  object-fit: cover;  
+  /* object-fit: cover;   */
   }
   
   /* -------------------------------------------------Page3------------------------------------------------------------------------------------ */
@@ -276,8 +289,9 @@
       margin-top: 10px;
     background-color: #34283c;
     height: 100vh;
+    display: flex;
     color: white;
-    display: grid;
+    /* display: grid; */
     /* display: flex; */
     /* flex-direction: column; */
     /* align-items: center; */
@@ -292,7 +306,7 @@
     justify-content: center;
   }
   .page-3-heading {
-    border: purple 1px solid;
+    /* border: purple 1px solid; */
     text-align: center;
     align-content: center;
   }
