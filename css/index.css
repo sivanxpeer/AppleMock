@@ -55,16 +55,12 @@ body {
 
 a i {
   color: #86868b;
-vertical-align:middle; 
-}
-
-.fab .fa-apple {
   width: 100%;
   height: 100%;
+    vertical-align:middle; 
+    font-size: 18px;
 }
-/* .svg{
-      fill:#86868b;
-  } */
+
 
 li {
   list-style: none;
@@ -192,7 +188,6 @@ a {
 
 .circle-images-container {
   display: flex;
-  /* border: 1px solid red; */
   height: 80vh;
   justify-content: center;
 }
@@ -250,7 +245,6 @@ a {
 .page-2-heading {
   height: 30vh;
   width: 100%;
-  border: 2px solid rgb(137, 137, 141);
   position: absolute;
   top: 125vh;
   z-index: 2;
@@ -259,51 +253,40 @@ a {
   justify-content: center;
   align-items: center;
   align-self: flex-start;
-  /* border: red 1px solid; */
 }
+
 .heading {
   font-size: 3.2rem;
 }
 
 .subhead {
   font-size: 1.8rem;
-  border: red 1px solid;
   font-weight: 200;
   display: flex;
   justify-content: space-between;
 }
 
 .links {
-  /* display: flex; */
   justify-content: space-between;
-  /* border: 1px solid red; */
 }
 
 .page-2-iphone-13-image {
-  /* align-self: center; */
-  /* background-size: 1068px 617px; */
-  /* border: black 2px solid; */
   background: url("https://www.apple.com/v/home/ah/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_large_2x.jpg")
     no-repeat center center/cover;
   width: 100%;
   height: 100%;
-  /* object-fit: cover;   */
 }
 
 /* -------------------------------------------------Page3------------------------------------------------------------------------------------ */
 
 .page-3 {
-  /* margin-top: 10px; */
   background-color: #34283c;
   height: 100vh;
   display: flex;
   justify-content: center;
   color: white;
-  /* display: grid; */
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align-items: center; */
-  /* border: 2px solid palevioletred; */
+  margin-bottom: 0.9rem;
+
 }
 
 .page3-iphone-image-container {
@@ -316,13 +299,10 @@ a {
 .page-3-heading {
   height: 30vh;
   width: 100%;
-  border: #0066cc solid 1px;
   position: absolute;
-  /* left:31rem; */
   top:225vh;
   display: flex;
   text-align: center;
-  /* justify-content: flex-end; */
   align-content: center;
   flex-direction: column;
   justify-content: center;
@@ -330,12 +310,10 @@ a {
 
 .heading3 {
   font-size: 3.3rem;
-
 }
 
 .subhead3 {
   font-size: 1.8rem;
-  /* border: red 1px solid; */
   font-weight: 200;
   color: #c999bd;
 }
@@ -353,11 +331,8 @@ a {
 height: 300vh;
 width: 100%;
 font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
+margin-bottom: 0.9rem;
 
- 
-.parent div{
-    /* border: 1px solid red; */
 }
 
 .parent {
@@ -395,11 +370,8 @@ font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, 
 
     .div4 { 
         grid-area: 3 / 2 / 5 / 3; 
-    /* position: relative; */
     display: flex;
     justify-content: center;
-    /* height: 100%; */
-    /* width: 100%; */
     }
     .div5 {
          grid-area: 5 / 1 / 7 / 2; 
@@ -409,13 +381,19 @@ font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, 
     left: 0;
     height: 100%;
     }
-    .div6 { grid-area: 5 / 2 / 7 / 3; }
+    
+    .div6 { grid-area: 5 / 2 / 7 / 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+    }
     
     .grid{
         width:100%;
         height:100%;
-        /* display: flex; */
-        /* justify-content: center; */
     }
     
     .pic1{
@@ -423,7 +401,6 @@ font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, 
     }
 
     .header-container-1{
-        /* border:black 2px solid; */
         position: absolute;
         display: flex;
         flex-direction: column;
@@ -431,7 +408,6 @@ font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, 
         text-align: center;
         top:4rem;
         height: 25%;
-        /* left: ; */
     }
     
     .heading{
@@ -459,20 +435,15 @@ font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, 
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        /* padding: 0 0 19rem 0; */
         margin-bottom: 3rem;
         text-align: center;
-        /* height: 10rem; */
-        border: rgb(118, 121, 133) 1px solid;
         width: 100%;
-        /* transform: scale(0.8); */
     }
     
     .new{
         display: flex;
         position: relative;
         top:5px;
-        /* flex-direction: column; */
         align-self: center;
         font-size: 0.8rem;
         color: #C45614;
@@ -497,12 +468,10 @@ font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, 
     
     .header-container-3{
         position: absolute;
-        /* top: 2.8rem; */
         display: flex;
         flex-direction: column;
         text-align: center;
         height: 8rem;
-        border: royalblue 1px solid;
         width: 100%;
     }
 
@@ -512,8 +481,6 @@ font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, 
         flex-direction: column;
         justify-content: flex-start;
         text-align: center;
-        border: royalblue 1px solid;
-        /* width: 100%; */
     }
     
     .r{
@@ -527,14 +494,38 @@ font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, 
         flex-direction: column;
         justify-content: flex-start;
         text-align: center;
-        border: royalblue 1px solid;
+        margin-top: 3rem;
+    }
+    
+    .header-container-6{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: center;
         margin-top: 3rem;
         /* width: 100%; */
     }
+.stream{
+    color: white;
+    align-self: center;
+    justify-content: space-between;
+}
+
+.stream:hover{
+    text-decoration: underline;
+}
+    .apple-tv{
+        justify-content: center;
+        align-self: center;
+    }
+
+.dickinson{
+    align-self: flex-end;
+}
 
     .heading5 {
         font-size: 1.2rem;
-        /* line-height: 1.2rem; */
         padding: 5px;
         margin-top: -0.8rem;
     }
@@ -550,13 +541,16 @@ font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, 
     .pic6{
         background: url("https://www.apple.com/v/home/ah/images/promos/tv-plus-dickinson-s3/promo_dickinson__c9ea4l2f5rki_large_2x.jpg")no-repeat center center/cover;
     }
-    
+    .fas .fa-play-circle{
+        color:white;
+    }
 
     .footer{
         height: 100vh;
         background-color: #F5F5F7;
         display: flex;
-        /* justify-content: space-around; */
+        color: #6e6e73
+        ;
     }
 
     .footer-content{
@@ -564,7 +558,6 @@ font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, 
         margin: 0 auto;
         color: #424245;
         font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        /* padding: 5rem 8rem; */
     }
     .lists{
         width: 82%;
@@ -581,14 +574,15 @@ font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, 
         margin-top: 20px;
         font-size: 12px;
         line-height: 16px;
-        color:#6e6e73;
+        color: #6e6e73;
+        
         font-family: 
         "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        /* display: flex; */
-        /* justify-content: center; */
     }
 
     li h4{
+        font-family: 
+        "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
         color: #1d1d1f;
     }
     ul li{
@@ -597,7 +591,7 @@ font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, 
     ul li a{
         font-size: 12px;
         display: flex;
-        color:#424245;
+        color: #555757;
     }
     .terms a{
         list-style: none;
@@ -624,7 +618,8 @@ font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, 
         justify-content: center;
         font-size: 12px;
         margin-right: 38rem;
-        color:#424245;
+            color: #555757;
+        margin-bottom: 0;
     }
 
     .apple-store{
@@ -640,3 +635,44 @@ font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, 
         opacity: 0.5;
         margin-top:-9px;
     }
+
+    .finishLine{
+        font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+        display: flex;
+        font-size: 12px;
+    }
+        .Copyright {
+            margin: 0px 100px;
+            color: #555757;
+          }
+          .finishLine {
+            display: flex;
+          }
+          .navFooter {
+            display: flex;
+            list-style-type: none;
+            font-size: 12px;
+            margin-bottom: 30px;
+            color: #555757;
+          }
+          .navFooter :hover {
+            text-decoration: underline;
+          }
+          .navFooter a {
+            text-decoration: none;
+            color: #555757;
+          }
+          .United_States {
+            margin-left: 120px;
+            font-size: 12px;
+          }
+          .United_States :hover {
+            text-decoration: underline;
+          }
+          
+          .United_States a {
+            text-decoration: none;
+            color: #555757;
+          }
+          
+    
