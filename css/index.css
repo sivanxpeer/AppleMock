@@ -352,6 +352,7 @@ a {
 .page-4{
 height: 300vh;
 width: 100%;
+font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
  
@@ -394,7 +395,7 @@ width: 100%;
 
     .div4 { 
         grid-area: 3 / 2 / 5 / 3; 
-    position: relative;
+    /* position: relative; */
     display: flex;
     justify-content: center;
     /* height: 100%; */
@@ -405,10 +406,9 @@ width: 100%;
          position: relative;
     display: flex;
     justify-content: center;
-    /* left: 0; */
-    /* height: 100%; */
-    /* width: 100%; */
-        }
+    left: 0;
+    height: 100%;
+    }
     .div6 { grid-area: 5 / 2 / 7 / 3; }
     
     .grid{
@@ -459,11 +459,11 @@ width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        padding: 0 0 10rem 0;
-        margin-bottom: 3px;
+        /* padding: 0 0 19rem 0; */
+        margin-bottom: 3rem;
         text-align: center;
         /* height: 10rem; */
-        border: royalblue 1px solid;
+        border: rgb(118, 121, 133) 1px solid;
         width: 100%;
         /* transform: scale(0.8); */
     }
@@ -501,7 +501,7 @@ width: 100%;
         display: flex;
         flex-direction: column;
         text-align: center;
-        /* height: 8rem; */
+        height: 8rem;
         border: royalblue 1px solid;
         width: 100%;
     }
@@ -513,7 +513,7 @@ width: 100%;
         justify-content: flex-start;
         text-align: center;
         border: royalblue 1px solid;
-        width: 100%;
+        /* width: 100%; */
     }
     
     .r{
@@ -528,8 +528,8 @@ width: 100%;
         justify-content: flex-start;
         text-align: center;
         border: royalblue 1px solid;
-        width: 100%;
-        margin-bottom:2rem;
+        margin-top: 3rem;
+        /* width: 100%; */
     }
 
     .heading5 {
@@ -552,44 +552,91 @@ width: 100%;
     }
     
 
-
     .footer{
         height: 100vh;
-        width: 80vw;
         background-color: #F5F5F7;
         display: flex;
-        /* flex-direction: row; */
+        /* justify-content: space-around; */
+    }
+
+    .footer-content{
+        width: 82%;
+        margin: 0 auto;
+        color: #424245;
+        font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        /* padding: 5rem 8rem; */
     }
     .lists{
-        margin-top: 2rem;
-        display: flex;
-        justify-content: center;
-        color:#6e6e73;
+        width: 82%;
 
+        margin: 2rem auto ;
+        display: flex;
+        justify-content: space-between;
+        color:#9f9fa3;
     }
+    
     .content{
+        width:82%;
         margin: auto;
-        width:80vw;
-        font-size: 14px;
+        margin-top: 20px;
+        font-size: 12px;
+        line-height: 16px;
         color:#6e6e73;
-        justify-content: center;
-        display: flex;
-
+        font-family: 
+        "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        /* display: flex; */
+        /* justify-content: center; */
     }
+
     li h4{
-        color: black;
+        color: #1d1d1f;
+    }
+    ul li{
+        margin-top:5px;
     }
     ul li a{
         font-size: 12px;
         display: flex;
+        color:#424245;
+    }
+    .terms a{
+        list-style: none;
+        font-size: 12px;
+        color:#424245;
+    }
+
+    .terms:hover{
+        text-decoration: underline;
     }
     .ul-1{
-        display: flex;
+        /* display: flex; */
         justify-content: center;
         flex-direction: column;
     }
     .ul-2{
-        display: flex;
+        /* display: flex; */
         justify-content: center;
         flex-direction: column;
+    }
+
+    .more{
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+        margin-right: 38rem;
+        color:#424245;
+    }
+
+    .apple-store{
+        text-decoration: underline;
+        color: #0066cc;
+        font-size: 12px;
+    }
+
+    .gray-line{
+        color: slategrey;
+        margin-left: 6rem;
+        font-weight: 50;
+        opacity: 0.5;
+        margin-top:-9px;
     }
