@@ -33,6 +33,8 @@ body {
   height: 2.7rem;
   z-index: 5;
   background-color: #333333;
+ vertical-align:middle; 
+
 }
 
 .navbar-list {
@@ -48,10 +50,12 @@ body {
   padding: 0 7.2rem;
   opacity: 0.98;
   /* z-index: 3; */
+
 }
 
 a i {
   color: #86868b;
+vertical-align:middle; 
 }
 
 .fab .fa-apple {
@@ -66,6 +70,7 @@ li {
   list-style: none;
   /* padding: 1.5rem; */
   font-size: 12px;
+
 }
 
 a {
@@ -123,7 +128,7 @@ a {
 
 .shop-now--white {
   color: white;
-  
+ vertical-align:middle; 
 }
 
 .margin-right {
@@ -356,10 +361,11 @@ width: 100%;
 
 .parent {
     height: 100%;
+    
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
-    grid-gap: 5px;
+    grid-gap: 7px;
     }
     
     .div1 { 
@@ -368,10 +374,41 @@ width: 100%;
         display: flex;
         justify-content: center;
     }
-    .div2 { grid-area: 1 / 2 / 3 / 3; }
-    .div3 { grid-area: 3 / 1 / 5 / 2; }
-    .div4 { grid-area: 3 / 2 / 5 / 3; }
-    .div5 { grid-area: 5 / 1 / 7 / 2; }
+    .div2 { 
+        grid-area: 1 / 2 / 3 / 3; 
+        position: relative;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .div3 { 
+    grid-area: 3 / 1 / 5 / 2; 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    }
+
+    .div4 { 
+        grid-area: 3 / 2 / 5 / 3; 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* height: 100%; */
+    /* width: 100%; */
+    }
+    .div5 {
+         grid-area: 5 / 1 / 7 / 2; 
+         position: relative;
+    display: flex;
+    justify-content: center;
+    /* left: 0; */
+    /* height: 100%; */
+    /* width: 100%; */
+        }
     .div6 { grid-area: 5 / 2 / 7 / 3; }
     
     .grid{
@@ -384,6 +421,7 @@ width: 100%;
     .pic1{
         background: url("https://www.apple.com/v/home/ah/images/promos/macbook-pro/tile_macbookpro__cx0ur0qg9biq_large_2x.jpg")no-repeat center center/cover;
     }
+
     .header-container-1{
         /* border:black 2px solid; */
         position: absolute;
@@ -413,15 +451,87 @@ width: 100%;
     .head-subhead1{
     font-size: 1.2rem;
     font-weight: 400;
+    }
 
-}
+    .header-container-2{
+        position: absolute;
+        top: 2.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 0 0 10rem 0;
+        margin-bottom: 3px;
+        text-align: center;
+        /* height: 10rem; */
+        border: royalblue 1px solid;
+        width: 100%;
+        /* transform: scale(0.8); */
+    }
+    
+    .new{
+        display: flex;
+        position: relative;
+        top:5px;
+        /* flex-direction: column; */
+        align-self: center;
+        font-size: 0.8rem;
+        color: #C45614;
+    }
+    
+    .apple-watch-title{    
+        display: flex;
+        justify-content: center;
+        align-content: center;        
+    }
+
+    img{
+        transform: scale(0.5);
+        align-self: center;
+
+    }    
     .pic2{
         background: url("https://www.apple.com/v/home/ah/images/promos/watch-series-7/tile_watch__e9n11b6m6yq2_large_2x.jpg")no-repeat center center/cover;
         background-color: #F5F5F7;
     }
+    
+    
+    .header-container-3{
+        position: absolute;
+        /* top: 2.8rem; */
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        /* height: 8rem; */
+        border: royalblue 1px solid;
+        width: 100%;
+    }
+
+    .header-container-4{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: center;
+        border: royalblue 1px solid;
+        width: 100%;
+    }
+    
+    .r{
+        font-size: 11px;
+        vertical-align: top;
+    }
+
+    .header-container-5{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: center;
+        border: royalblue 1px solid;
+        width: 100%;
+    }
     .pic3{
         background: url("https://www.apple.com/v/home/ah/images/promos/homepod-mini/tile_homepod_mini__b73w4z3ljymu_large_2x.jpg")no-repeat center center/cover;
-        background-color: #FBFBFD;
     }
     .pic4{
         background: url("https://www.apple.com/v/home/ah/images/promos/arcade-lego-castaways/tile_lego_castaways__d2v36ez91ewm_large_2x.jpg")no-repeat center center/cover;
