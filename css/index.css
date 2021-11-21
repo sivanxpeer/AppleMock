@@ -361,11 +361,11 @@ width: 100%;
 
 .parent {
     height: 100%;
-    
+    padding: 5px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
-    grid-gap: 7px;
+    grid-column-gap: 20px;
     }
     
     .div1 { 
@@ -529,6 +529,14 @@ width: 100%;
         text-align: center;
         border: royalblue 1px solid;
         width: 100%;
+        margin-bottom:2rem;
+    }
+
+    .heading5 {
+        font-size: 1.2rem;
+        /* line-height: 1.2rem; */
+        padding: 5px;
+        margin-top: -0.8rem;
     }
     .pic3{
         background: url("https://www.apple.com/v/home/ah/images/promos/homepod-mini/tile_homepod_mini__b73w4z3ljymu_large_2x.jpg")no-repeat center center/cover;
@@ -543,3 +551,45 @@ width: 100%;
         background: url("https://www.apple.com/v/home/ah/images/promos/tv-plus-dickinson-s3/promo_dickinson__c9ea4l2f5rki_large_2x.jpg")no-repeat center center/cover;
     }
     
+
+
+    .footer{
+        height: 100vh;
+        width: 80vw;
+        background-color: #F5F5F7;
+        display: flex;
+        /* flex-direction: row; */
+    }
+    .lists{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        color:#6e6e73;
+
+    }
+    .content{
+        margin: auto;
+        width:80vw;
+        font-size: 14px;
+        color:#6e6e73;
+        justify-content: center;
+        display: flex;
+
+    }
+    li h4{
+        color: black;
+    }
+    ul li a{
+        font-size: 12px;
+        display: flex;
+    }
+    .ul-1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .ul-2{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
