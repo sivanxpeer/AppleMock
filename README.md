@@ -1,4 +1,4 @@
 # weekend4 
-Apple - homepage mock weekend assignment
+Apple - homepage mock
 
 https://apple-homepage-1.netlify.app/
